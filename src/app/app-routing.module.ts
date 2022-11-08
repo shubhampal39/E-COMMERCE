@@ -15,10 +15,12 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  // imports: [CommonModule],
-  // declarations: [],
-  // imports: [RouterModule],
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
+
+//for adding app-routing module
+// 1) add file name app-routing-module in app.module.ts (imports)
+//2) then add @ngmodule in app-routing-module
+//3) add router-outlet in component
