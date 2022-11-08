@@ -10,7 +10,6 @@ export class SellerAuthComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
   }
 
 }
